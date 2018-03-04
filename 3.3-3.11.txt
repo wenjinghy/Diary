@@ -12,8 +12,7 @@ git地址:https://github.com/wenjinghy/Diary.git
 只要本地作了提交，就可以通过命令:git push origin master把本地master分支的最新修改推送至GitHub
 
 2.六麦环形阵列：
-模块利用麦克风阵列的空域滤波特性（不仅利用了声音的时间频率特性，还利用了空间特性）,通过对唤醒人的角度定位,形成定向拾音波束,并对波束以外的噪
-声进行抑制,以保证较高的录音质量。
+模块利用麦克风阵列的空域滤波特性（不仅利用了声音的时间频率特性，还利用了空间特性）,通过对唤醒人的角度定位,形成定向拾音波束,并对波束以外的噪声进行抑制,以保证较高的录音质量。
 六个拾音波束，各自对应60°范围　阵列算法通过增强波束范围内的声音，削弱波束外的声音，以增强　录音信噪比；
 ５ｍ远场拾音，声源定位，多种拾音模式（唤醒、定向、全向），中英文唤醒词，唤醒效果检测（评分、调参）
 附：唤醒拾音模式即每次说话前需对麦克风进行唤醒,之后麦克风才可以拾取声源所在方向上的声音;定向拾音模式即开发者可随时指定特定的麦克风进行拾音,使设备达到跟踪声源进行拾音的效果,主要适用于机器人等场景;全向拾音模式即麦克风阵列无需唤醒,可拾取任意方向上声源的声音,可适用于通话、会议等场景
@@ -46,12 +45,29 @@ CART：使用GINI系数当做衡量标准　GINI系数：1-概率平方的累加
 决策树的构造实例：
 
 决策树剪枝策略：
-预剪枝（边建立边剪枝，限制深度-特征数、叶子节点个数、信息增益，常用）后剪枝（叶子节点越多，损失越大）
+预剪枝（边建立边剪枝，限制深度-特征数、叶子节点个数、信息增益，常用）
+后剪枝（叶子节点越多，损失越大）
 第５节完
 
+2018.3.4　周日　晴
+ubuntu无自带flash插件
+ubuntu16.04如何通过Firefox安装Flash插件(https://jingyan.baidu.com/article/2fb0ba40a7832600f2ec5f80.html)
 
+te：Training Epochs，训练迭代次数
+tf.truncated_normal()，变量初始化为标准截断正态分布的随机数
+tf.zeros()，变量初始化为0　　　　
+display_step = 1　每多少次迭代显示一次损失
 
+# tensor `a` is [1.8, 2.2], dtype=tf.float  
+tf.cast(a, tf.int32) ==> [1, 2]  # dtype=tf.int32  类型转换函数
+duce_mean(x) ==> 2.5 #如果不指定第二个参数，那么就在所有的元素中取平均值
+tf.reduce_mean(x, 0) ==> [2.,  3.] #指定第二个参数为0，则第一维的元素取平均值，即每一列求平均值
 
+tensorflow中有一类在tensor的某一维度上求值的函数。如：
+求最大值tf.reduce_max(input_tensor, reduction_indices=None, keep_dims=False, name=None)
+求平均值tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)
+参数1--input_tensor:待求值的tensor。
+参数2--reduction_indices:在哪一维上求解。　参数（3）（4）可忽略
+tf.argmax的使用（http://blog.csdn.net/uestc_c2_403/article/details/72232807）
 
-
-
+读DeepSpeech＆DeepSpeech２论文（论文、译、笔记 在Documents/DeepSpeech论文中）
