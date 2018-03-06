@@ -50,6 +50,7 @@ CART：使用GINI系数当做衡量标准　GINI系数：1-概率平方的累加
 第５节完
 
 2018.3.4　周日　晴
+
 ubuntu无自带flash插件
 ubuntu16.04如何通过Firefox安装Flash插件(https://jingyan.baidu.com/article/2fb0ba40a7832600f2ec5f80.html)
 
@@ -71,3 +72,15 @@ tensorflow中有一类在tensor的某一维度上求值的函数。如：
 tf.argmax的使用（http://blog.csdn.net/uestc_c2_403/article/details/72232807）
 
 读DeepSpeech＆DeepSpeech２论文（论文、译、笔记 在Documents/DeepSpeech论文中）
+
+2018.3.5 周一　晴
+
+读DeepSpeech＆DeepSpeech２论文（论文、译、笔记 在Documents/DeepSpeech论文中）
+
+softmax函数的特点和作用是什么（https://www.zhihu.com/question/23765351杨思达ok忆臻详解）
+元素的softmax值为:该元素的指数，与所有元素指数和的比值 把值映射到0到1上，可认为是概率
+loss定义为交叉熵：-㏒(softmax)　概率越大，损失越小
+最后结果的形式非常的简单，只要将算出来的概率的向量对应的真正结果的那一维减1，就可以了
+
+
+
