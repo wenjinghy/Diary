@@ -81,6 +81,30 @@ softmax函数的特点和作用是什么（https://www.zhihu.com/question/237653
 元素的softmax值为:该元素的指数，与所有元素指数和的比值 把值映射到0到1上，可认为是概率
 loss定义为交叉熵：-㏒(softmax)　概率越大，损失越小
 最后结果的形式非常的简单，只要将算出来的概率的向量对应的真正结果的那一维减1，就可以了
+科大讯飞的语音听写　研究
+晚上高级程序设计课　基本：熟悉的教材　敲代码正比变成能力　交流
 
+2018.3.6　周二　晴
 
+ubuntu 16.04 VSCode 配置C++开发环境 （http://blog.csdn.net/u011258217/article/details/78693564）
+ubuntu16.04版本的名称xenial
+添加更改源：system settings->software&updates
+PPA源（Personal Package Archives 个人软件包文档）
+https://www.cnblogs.com/EasonJim/p/7119331.html＆https://imcn.me/ppa
+
+3.6&3.7打标签
+
+2018.3.8　周四　晴
+
+编辑makefile文件：insert->进入编辑模式->esc(退出编辑)->shift:->wq
+linux makefile教程（http://blog.csdn.net/liang13664759/article/details/1771246/）
+makefile都成为了一种在工程方面的编译方法，关系到了整个工程的编译规则
+makefile带来的好处就是——“自动化编译”　无论是C、C++、还是pas，首先要把源文件编译成中间代码文件，在Windows下也就是 .obj 文件，UNIX下是 .o 文件，即 Object File，这个动作叫做编译（compile）。然后再把大量的Object File合成执行文件，这个动作叫作链接（link）　
+
+配置讯飞听写　失败(source 64bit_make.sh报错)
+设置当前用户的环境变量：sudo gedit ~/.bashrc 打开.bashrc文件　末尾添加路径（eg:export PATH=/opt/EmbedSky/4.3.3/bin:$PATH 其中/opt/EmbedSky/4.3.3/bin为你自己需要设置的环境变量路径）使其立即生效，在终端执行：source ~/.bashrc
+ubuntu16.04配置环境变量（https://www.cnblogs.com/imayi/p/6082122.html＆http://blog.csdn.net/baidu_34045013/article/details/78237825＆http://blog.csdn.net/Bleachswh/article/details/51334661）
+Linux下profile和bashrc四种的区别（https://zhidao.baidu.com/question/556207103012196652.html:
+全局vs当前用户　.bashrc vs .profile
+译完DeepSpeech论文　（论文、译、笔记 在Documents/DeepSpeech论文中）
 
