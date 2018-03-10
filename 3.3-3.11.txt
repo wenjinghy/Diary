@@ -108,3 +108,18 @@ Linux下profile和bashrc四种的区别（https://zhidao.baidu.com/question/5562
 全局vs当前用户　.bashrc vs .profile
 译完DeepSpeech论文　（论文、译、笔记 在Documents/DeepSpeech论文中）
 
+2018.3.9 周五　晴
+
+Ubuntu解压缩zip,tar,tar.gz,tar.bz2:http://www.linuxidc.com/Linux/2012-08/68122.htm
+Anaconda+用conda创建python虚拟环境:https://www.cnblogs.com/swje/p/7642929.html
+用conda创建python虚拟环境(简明版):http://blog.csdn.net/lyy14011305/article/details/59500819
+安装labelImg失败（虚拟环境中也尝试了），qt报错
+Shift+PrintScreenSysRq 这两个按键组合截图
+返回上一级目录　cd ..
+返回上两级目录　cd ../..   返回上次操作的目录　cd ~
+linux中mv命令使用详解https://www.cnblogs.com/piaozhe116/p/6084214.html
+mv [选项] 源文件或目录 目标文件或目录
+创建软连接：ln –s 源文件 目标文件　只会在选定的位置上生成一个文件的镜像，不会占用磁盘空间，类似与windows的快捷方式　硬链接ln源文件目标文件，没有参数-s， 会在选定的位置上生成一个和源文件大小相同的文件，无论是软链接还是硬链接，文件都保持同步变化
+Shift+PrintScreenSysRq 这两个按键组合截图
+
+
