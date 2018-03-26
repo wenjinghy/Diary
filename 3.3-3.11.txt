@@ -174,10 +174,31 @@ Git LFS 支持大文件存储　http://blog.csdn.net/aoshilang2249/article/detai
 
 一天都在写bug。。。刚发现今天是白色情人节
 
+2018.3.15 周四　晴
+录音测试，问题是只能听写录好的音频，不能实时听写；
+读论文　
+理解dropout(指在深度学习网络的训练过程中，对于神经网络单元，按照一定的概率将其暂时从网络中丢弃,注意是暂时，对于随机梯度下降来说，由于是随机丢弃，故而每一个mini-batch都在训练不同的网络.防止过拟合)http://blog.csdn.net/stdcoutzyx/article/details/49022443
+RNN训练设置部分：五层网络
+第四层双向循环层h（f）必须从t = 1到t = T（i）顺序计算第i个话语，而单位h（b）必须从t = T（i）到t = 1　　　　正确标记的数据叫做ground truth
+CTC的训练准则是基于序列（比如语音识别的一整句话）的，比如最大化p(z|x)，序列化的概率求解比较复杂，因为一个输出序列可以对应很多的路径，所有引入前后向算法来简化计算。CTC训练是真正的序列训练，优化整个序列的损失，而不是优化单点的损失
+百度贾磊LSTM+CTC详解　http://lib.csdn.net/article/deeplearning/47821
+mini-batch是将训练集分组，分组之后，分别对每组求梯度，然后更新参数
+随着每个GPU内的小批量缩小，大多数操作都会受到内存带宽的限制
+https://baijiahao.baidu.com/s?id=1578230866597574335&wfr=spider&for=pc
 
+3.16 星期五　晴
 
+支持向量机SVM:
+决策边界：Large Margin 决策边界越胖越好　选出离雷区最远的
+距离与数据的定义
+决策方程
+fprintf()、sprintf()、printf()、fwrite()函数的用法与区别
+http://blog.csdn.net/ltstud/article/details/76436757
+ftell函数用于得到文件位置指针当前位置相对于文件首的偏移字节数（获取文件读写指针的当前位置）
+http://blog.csdn.net/stpeace/article/details/8245335
+fseek()用来移动文件流的读写位置
 
-
-
-
+3.21 星期三　晴
+16.04　xenial
+14.04　trust
 
